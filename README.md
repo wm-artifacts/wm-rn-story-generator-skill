@@ -1,6 +1,6 @@
 # wm-rn-story-generator
 
-An AI skill for WaveMaker React Native Storybook projects. Give it a component source path and it produces a complete CSF3 TypeScript story file with three canonical exports (`Standard`, `Showcase`, `Docs`) and a sibling `docs/` folder with markdown files.
+This skill generates a complete CSF3 story file for a WaveMaker React Native component from its source path, including three standard stories (`Docs`, `Standard`, `Showcase`) and a docs folder with structured markdown files for documentation.
 
 ---
 
