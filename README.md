@@ -1,6 +1,6 @@
 # wm-rn-story-generator
 
-An AI skill for WaveMaker React Native Storybook projects. Give it a component source path and it produces a complete CSF3 TypeScript story file with three canonical exports (`Standard`, `Showcase`, `Docs`) and a sibling `docs/` folder with six markdown files — ready to commit.
+An AI skill for WaveMaker React Native Storybook projects. Give it a component source path and it produces a complete CSF3 TypeScript story file with three canonical exports (`Standard`, `Showcase`, `Docs`) and a sibling `docs/` folder with markdown files.
 
 ---
 
@@ -27,11 +27,11 @@ The skill is picked up automatically by any AI assistant that supports npm-based
 Pass the component source path — short form or full package form both work:
 
 ```
-/wm-rn-story-generator generate a story for basic/anchor
+/wm-rn-story-generator generate a story for @wavemaker/app-rn-runtime/components/chart/area-chart
 ```
 
 ```
-/wm-rn-story-generator generate a story for @wavemaker/app-rn-runtime/components/chart/area-chart
+/wm-rn-story-generator generate a story for basic/anchor
 ```
 
 ### 2. Review the Prop Inventory
